@@ -1,0 +1,13 @@
+import { Fragment } from "react"
+import { View, Text } from "react-native"
+import { styles } from "./styles"
+
+export function Home() {
+  return (
+    <Fragment>
+      <View style={styles.container}>
+        <Text style={styles.text}>Hello, World!</Text>
+      </View>
+    </Fragment>
+  )
+}
