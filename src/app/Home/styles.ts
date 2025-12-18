@@ -11,4 +11,8 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: "bold",
   },
+  logo: {
+    width: 34,
+    height: 134,
+  }
 })
