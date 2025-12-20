@@ -3,6 +3,8 @@
         "test",
         "config",
         "domain",
-        "project"
+        "project",
+        "home",
+        "component"
     ]
 }
