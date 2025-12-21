@@ -6,10 +6,16 @@ import { styles } from "./styles"
 export function Home() {
   return (
     <View style={styles.container}>
-      <Image source={require("@/assets/logo.png")} />
+      <Image style={styles.logo} source={require("@/assets/logo.png")} />
 
-      <Input placeholder="O que você precisa comprar?" />
-      <Button title="Entrar" />
+      <View style={styles.form}>
+        <Input placeholder="O que você precisa comprar?" />
+        <Button title="Entrar" />
+      </View>
+
+      <View style={styles.content}>
+
+      </View>
     </View>
   )
 }
