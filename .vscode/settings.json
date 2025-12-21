@@ -1,10 +1,21 @@
 {
-    "conventionalCommits.scopes": [
-        "test",
-        "config",
-        "domain",
-        "project",
-        "home",
-        "component"
-    ]
+  "conventionalCommits.scopes": [
+    "test",
+    "config",
+    "domain",
+    "project",
+    "home",
+    "component"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
 }
